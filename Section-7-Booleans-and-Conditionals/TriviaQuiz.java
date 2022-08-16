@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Trivia {
+public class TriviaQuiz {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Trivia {
 
         if (answer1.equals("c")) {
             score += 5;
-        } 
+        }
         if (answer2.equals("a")) {
             score += 5;
         }
@@ -43,7 +43,7 @@ public class Trivia {
         } else if (score >= 5) {
             System.out.println("Not bad!");
         } else {
-            System.out.println("Better luck next time!");  
+            System.out.println("Better luck next time!");
         }
 
         scan.close();
